@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class Menu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,6 +17,11 @@ public class Calculator {
             if (choice == 5) {
                 System.out.println("Bye!");
                 break;
+            }
+
+            if (choice < 1 || choice > 5) {
+                System.out.println("Invalid choice! Try again.");
+                continue;
             }
 
             System.out.print("Enter a number : ");
