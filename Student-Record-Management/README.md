@@ -1,117 +1,108 @@
-# Student Record Management System
+# Student Record Management System 🎓
 
-A simple, console-based Student Record Management System developed using **Core Java**. This project allows users to manage student records using Java's `HashMap` collection.
+A simple, menu-driven, console-based Student Record Management System built using **Core Java**. This project allows users to manage student records using Java Collections.
 
-**Project Status:** 🚧 In Progress
+## 🚀 Features
 
-## Features
+### Implemented
+- Add student records using roll number and name.
+- Store student records using `HashMap`.
+- Search for a student using their roll number.
+- Exit the program using a menu-driven approach.
 
-The following features are currently implemented:
+### Planned Improvements
+- Display all student records.
+- Update existing student details.
+- Delete student records.
+- Add input validation.
+- Improve the menu-driven interface.
 
-- **Add Student:** Store student roll numbers and names.
-- **View All Students:** Display all stored student records.
-- **Search Student:** Find a student using their roll number.
-- **Delete Student:** Remove a student record using their roll number.
-- **Update Student:** Update the name of an existing student.
-- **Count Students:** Display the total number of student records.
+## 🛠️ Technologies Used
 
-## Technologies Used
+- **Language:** Java
+- **JDK:** Java 17+
+- **IDE:** VS Code
+- **Version Control:** Git & GitHub
 
-- Java
+## 📚 Java Concepts Practised
+
+- HashMap (`Map<Integer, String>`)
 - Java Collections Framework
-- HashMap
+- Key-Value Pair
+- `put()` method
+- `get()` method
+- `containsKey()` method
+- Conditional Statements
+- Loops
 - Scanner Class
-- VS Code
+- User Input Handling
 
-## Java Concepts Practised
+## ▶️ How to Run
 
-- Classes and Objects
-- `main()` method
-- Loops (`while`)
-- Conditional Statements (`if-else`)
-- User Input using `Scanner`
-- Java Map Interface
-- HashMap implementation
-- Key-value pairs
-- Methods such as:
-  - `put()`
-  - `get()`
-  - `remove()`
-  - `containsKey()`
-  - `size()`
-
-## How to Run
-
-1. Clone this repository:
+1. Clone this repository or download the project.
+2. Open the project folder in VS Code.
+3. Make sure Java JDK is installed.
+4. Compile the Java file:
 
    ```bash
-   git clone https://github.com/vishwaabhishek2208/Java-Mini-Projects.git
+   javac StudentRecordManagement.java
    ```
 
-2. Open the `Student-Record-Management` folder.
-
-3. Compile the Java file:
+5. Run the program:
 
    ```bash
-   javac Menu.java
+   java StudentRecordManagement
    ```
 
-4. Run the program:
+*Note: Replace the filename above with your actual Java filename if it is different.*
 
-   ```bash
-   java Menu
-   ```
-
-## Sample Output
+## 💻 Sample Output
 
 ```text
-Enter Roll Number (0 to exit): 101
-Enter Name: Rahul
-Student added successfully
+===== Student Record Management System =====
 
-Enter Roll Number (0 to exit): 102
-Enter Name: Aman
-Student added successfully
+1. Add Student
+2. Search Student
+0. Exit
 
-Enter Roll Number (0 to exit): 0
+Enter your choice: 1
 
-All Student Details:
-{101=Rahul, 102=Aman}
+Enter Roll Number: 101
+Enter Student Name: Rahul
 
-Enter roll number to search: 101
+Student Record Added Successfully!
+
+Enter your choice: 2
+
+Enter Roll Number to Search: 101
+
+Student Found!
+Roll Number: 101
 Student Name: Rahul
 
-Enter the rollNumber to remove the Student: 102
-Student removed successfully --> Aman
+Enter your choice: 0
 
-Student details now: {101=Rahul}
-
-Enter the roll Number for update a Student: 101
-Enter the name for the Student to update: Rahul Sharma
-Student details after the updation: {101=Rahul Sharma}
-
-To find the total number of Students enter 'total'
-The total number of Students are: 1
+Exiting Program...
 ```
 
-## Future Improvements
+*Note: Sample output illustrates the intended program flow; the final output may change as more features are implemented.*
 
-The following features are planned:
+## 🔮 Future Improvements
 
-- Create a menu-driven interface using `switch`.
-- Add input validation.
-- Prevent duplicate roll numbers.
-- Improve console output formatting.
-- Make the program more user-friendly.
+- Implement update and delete operations.
+- Display all stored student records.
+- Add duplicate roll number validation.
+- Add better exception handling.
+- Explore file handling to store student records permanently.
 
-## Author
+## 👨‍💻 Author
 
 **Abhishek Vishwakarma**
 
 B.Tech CSE '29 | LNCT&S Bhopal
 
-- GitHub: [@vishwaabhishek2208](https://github.com/vishwaabhishek2208)
+GitHub: [@vishwaabhishek2208](https://github.com/vishwaabhishek2208)
 
 ---
 
-*This project is part of my journey of learning Core Java and practising the Java Collections Framework through hands-on projects.*
+⭐ If you find this project useful, consider giving it a star!
