@@ -19,7 +19,7 @@ My goal is to learn by building projects and gradually move towards developing r
 
 | Project | Description |
 |---|---|
-| [Student Record Management System](./Student-Record-Management-System/) | A console-based application to manage student records using Java Collections and HashMap. |
+| [Student Record Management System](./Student-Record-Management/) | A console-based application to manage student records using Java Collections and HashMap. |
 
 ## 🛠️ Technologies & Tools
 
