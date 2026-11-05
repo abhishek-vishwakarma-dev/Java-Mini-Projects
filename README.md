@@ -1,39 +1,60 @@
-# Java Mini Projects ☕
+# ☕ Java Mini Projects
 
 Welcome to my **Java Mini Projects** repository!
 
-This repository contains small Java projects that I am building while learning Core Java. The main goal is to improve my programming logic, strengthen my understanding of Java concepts, and gain practical coding experience.
+This repository contains small, console-based Java projects that I build while learning **Core Java**. Each project helps me apply programming concepts practically, improve logical thinking, and strengthen my problem-solving skills.
+
+My goal is to learn by building projects and gradually move towards developing real-world Java applications.
 
 ## 📂 Projects
 
+### ✅ Completed Projects
+
 | Project | Description |
 |---|---|
-| [Calculator](./Basic-Calculator/) | A menu-driven calculator that performs basic arithmetic operations. |
+| [Basic Calculator](./Basic-Calculator/) | A menu-driven calculator that performs basic arithmetic operations. |
 | [Daily Expense Detective](./Daily-Expense-Detective/) | A console-based application to track daily expenses and manage a budget. |
 
-## 🛠️ Technologies Used
+### 🚧 Project in Progress
 
-- Java
-- VS Code
-- Git and GitHub
+| Project | Description |
+|---|---|
+| [Student Record Management System](./Student-Record-Management-System/) | A console-based application to manage student records using Java Collections and HashMap. |
+
+## 🛠️ Technologies & Tools
+
+- **Language:** Java
+- **JDK:** Java 17+
+- **IDE:** Visual Studio Code
+- **Version Control:** Git and GitHub
 
 ## 📚 Java Concepts Practised
 
+Throughout these projects, I am learning and practising:
+
 - Variables and Data Types
+- Operators and Expressions
 - Conditional Statements
 - Loops
 - Methods
-- Arrays and Collections Framework
-- ArrayList
-- HashMap
-- Scanner Class
-- Object-Oriented Programming (learning in progress)
+- Arrays
+- String Handling
+- Scanner Class and User Input
+- Java Collections Framework
+  - ArrayList
+  - HashMap
+  - Set and Map (learning in progress)
+- Object-Oriented Programming (OOP)
 
-## 🎯 Repository Goal
+## 🎯 Repository Goals
 
-My goal is to keep building projects as I learn new Java concepts, improve my problem-solving skills, and develop a strong foundation in Core Java.
+- Strengthen my Core Java fundamentals.
+- Improve programming logic and problem-solving skills.
+- Build practical projects using Java concepts.
+- Explore Object-Oriented Programming through projects.
+- Gradually progress towards Java Backend Development.
 
-More projects and improvements will be added as I continue learning.
+This repository will continue to grow as I learn new concepts and build more projects.
 
 ## 👨‍💻 Author
 
@@ -41,4 +62,12 @@ More projects and improvements will be added as I continue learning.
 
 B.Tech CSE '29 | LNCT&S Bhopal
 
-Learning Java | Practising DSA | Aspiring Backend Developer
+- Java Developer in Progress
+- DSA Learner
+- Aspiring Backend Developer
+
+**GitHub:** [@vishwaabhishek2208](https://github.com/vishwaabhishek2208)
+
+---
+
+⭐ Thanks for visiting my repository! Feel free to explore my projects and follow my learning journey.
