@@ -66,7 +66,7 @@ B.Tech CSE '29 | LNCT&S Bhopal
 - DSA Learner
 - Aspiring Backend Developer
 
-**GitHub:** [@vishwaabhishek2208](https://github.com/vishwaabhishek2208)
+**GitHub:** [@abhishek-vishwakarma-dev](https://github.com/abhishek-vishwakarma-dev)
 
 ---
 
