@@ -150,7 +150,7 @@ public class Menu {
             String newName = sc.nextLine();
 
             students.put(rollNumber, newName);
-            System.out.println("Student Added Successfully!");
+            System.out.println("Student Updated Successfully!");
 
         } else {
             System.out.println("Roll Number not Found!");
