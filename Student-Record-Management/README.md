@@ -54,13 +54,13 @@ A simple, menu-driven, console-based Student Record Management System built usin
 4. Compile the Java file:
 
    ```bash
-   javac Menu2.java
+   javac Menu.java
    ```
 
 5. Run the program:
 
    ```bash
-   java Menu2
+   java Menu
    ```
 
 ## 💻 Sample Output
