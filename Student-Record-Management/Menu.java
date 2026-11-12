@@ -48,7 +48,7 @@ public class Menu {
                     break;
 
                 case 6:
-                    System.out.println("Remove Student feature pending.");
+                    removeStudent(sc);
                     break;
 
                 case 7:
@@ -150,11 +150,24 @@ public class Menu {
             String newName = sc.nextLine();
 
             students.put(rollNumber, newName);
-            System.out.println("Student Updated Successfully!");
+            System.out.println("Student Added Successfully!");
 
         } else {
             System.out.println("Roll Number not Found!");
         }
 
+    }
+
+    static void removeStudent(Scanner sc) {
+        System.out.println("Enter the Roll Number of Student to Remove");
+        int removeRollNumber = sc.nextInt();
+        sc.nextLine();
+
+        if (students.containsKey(removeRollNumber)) {
+            students.remove(removeRollNumber);
+            System.out.println("Student Removed Successfully!");
+        } else {
+            System.out.println("Roll Number not Found!");
+        }
     }
 }
