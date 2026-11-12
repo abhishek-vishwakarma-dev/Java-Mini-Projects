@@ -1,23 +1,20 @@
-# Student Record Management System 🎓
+# 🎓 Student Record Management System
 
-A simple, menu-driven, console-based Student Record Management System built using **Core Java**. This project allows users to manage student records using Java Collections, particularly the `HashMap` class.
+A menu-driven, console-based Student Record Management System built using **Core Java**. This project allows users to manage student records using Java Collections, particularly the `HashMap` class.
 
 ## 🚀 Features
 
 ### Implemented
+
 - Add student records using roll number and name.
 - Prevent duplicate roll numbers.
 - Display all student records.
 - Search for a student using their roll number.
 - Search for students using their name (case-insensitive).
 - Update existing student names using roll numbers.
+- Remove student records using roll numbers.
 - Count the total number of registered students.
 - Exit the program using a menu-driven approach.
-
-### Pending
-- Remove student records.
-- Add input validation and exception handling.
-- Improve the menu-driven interface.
 
 ## 🛠️ Technologies Used
 
@@ -33,6 +30,7 @@ A simple, menu-driven, console-based Student Record Management System built usin
 - Map Interface and Key-Value Pairs
 - `put()` method
 - `get()` method
+- `remove()` method
 - `containsKey()` method
 - `entrySet()` method
 - `isEmpty()` method
@@ -86,17 +84,21 @@ Student Added Successfully!
 Enter your choice: 7
 
 Total Students: 1
+
+Enter your choice: 0
+
+Thank you for using the system!
 ```
 
-*Note: Sample output illustrates the current implemented features. The Remove Student option is still pending.*
+*Note: Sample output illustrates some of the implemented features. Actual output depends on user input.*
 
 ## 🔮 Future Improvements
 
-- Implement the Remove Student feature.
 - Add input validation for student names and roll numbers.
-- Add better exception handling.
+- Implement better exception handling.
 - Explore file handling to store student records permanently.
 - Introduce additional student details such as email and course.
+- Improve the menu-driven interface.
 
 ## 👨‍💻 Author
 
