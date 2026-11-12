@@ -14,12 +14,7 @@ My goal is to learn by building projects and gradually move towards developing r
 |---|---|
 | [Basic Calculator](./Basic-Calculator/) | A menu-driven calculator that performs basic arithmetic operations. |
 | [Daily Expense Detective](./Daily-Expense-Detective/) | A console-based application to track daily expenses and manage a budget. |
-
-### 🚧 Project in Progress
-
-| Project | Description |
-|---|---|
-| [Student Record Management System](./Student-Record-Management/) | A console-based application to manage student records using Java Collections and HashMap. |
+| [Student Record Management System](./Student-Record-Management/) | A menu-driven application to manage student records using Java Collections and HashMap. |
 
 ## 🛠️ Technologies & Tools
 
@@ -40,17 +35,24 @@ Throughout these projects, I am learning and practising:
 - Arrays
 - String Handling
 - Scanner Class and User Input
+- Object-Oriented Programming (OOP)
 - Java Collections Framework:
   - List Interface
+    - ArrayList
+    - LinkedList
+    - Vector
+    - Stack
   - Set Interface
+    - HashSet
+    - LinkedHashSet
+    - TreeSet
   - Map Interface
-  - Queue Interface
-  - Deque Interface
-  - ArrayList, LinkedList, Vector and Stack
-  - HashSet, LinkedHashSet and TreeSet
-  - HashMap, LinkedHashMap and TreeMap
-  - ArrayDeque and PriorityQueue
-- Object-Oriented Programming (OOP)
+    - HashMap
+    - LinkedHashMap
+    - TreeMap
+  - Queue and Deque Interfaces
+    - PriorityQueue
+    - ArrayDeque
 
 ## 🎯 Repository Goals
 
