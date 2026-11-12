@@ -36,14 +36,20 @@ Throughout these projects, I am learning and practising:
 - Operators and Expressions
 - Conditional Statements
 - Loops
-- Methods
+- Methods and Method Calling
 - Arrays
 - String Handling
 - Scanner Class and User Input
-- Java Collections Framework
-  - ArrayList
-  - HashMap
-  - Set and Map (learning in progress)
+- Java Collections Framework:
+  - List Interface
+  - Set Interface
+  - Map Interface
+  - Queue Interface
+  - Deque Interface
+  - ArrayList, LinkedList, Vector and Stack
+  - HashSet, LinkedHashSet and TreeSet
+  - HashMap, LinkedHashMap and TreeMap
+  - ArrayDeque and PriorityQueue
 - Object-Oriented Programming (OOP)
 
 ## 🎯 Repository Goals
